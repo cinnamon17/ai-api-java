@@ -22,8 +22,6 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	implementation platform("org.springframework.ai:spring-ai-bom:0.8.0")
-	implementation 'org.springframework.ai:spring-ai-ollama-spring-boot-starter'
 	 runtimeOnly 'com.h2database:h2'
 }
 
